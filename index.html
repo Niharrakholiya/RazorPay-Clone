@@ -68,14 +68,45 @@
         </div>
       </div>
     </nav>
-    <div>
-        <div class="bg-deepBlue py-20 flex justify-center">
-           <div>
-            <p>hello from h1</p>
-           </div>
-           <div>
-            <p>hello from image</p>
-           </div>
+    <!-- Hero section -->
+    <section
+    class="relative"
+    style="background: linear-gradient(45deg, #02042b, #02042b 50%)"
+  >
+    <div
+      class="w-10/12 md:w-11/12 max-w-[1080px] mx-auto flex flex-col lg:flex-row items-center justify-between -mt-[0.5px]"
+    >
+      <!-- text part -->
+      <div class="space-y-8">
+        <h1
+          class="font-mullish font-bold text-[40px] leading-[1.2] text-white"
+        >
+          Power your finance, grow your business
+        </h1>
+        <div class="w-6 h-1 bg-greenLight"></div>
+        <p class="font-mullish text-[18px] leading-7 text-white opacity-70">
+          Accept payments from customers. Automate payouts to vendors &
+          employees. Never run out of working capital.
+        </p>
+        <button
+          class="bg-lightBlue text-white py-[14px] px-[18px] rounded-md font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200"
+        >
+          Sign Up Now
+        </button>
+      </div>
+      <!-- image part -->
+      <img
+        src="/assets/hero-illustration.jpg"
+        alt="Online Payments, Virtual Accounts, Bank Transfer, and more"
+        class="w-full max-w-[680px]"
+      />
     </div>
+    <!-- shape part -->
+    <div class="w-full left-0
+      right-0  absolute" >
+        <img src="assets/hero-shape.svg" class="w-full object-fill">
+
+      </div>
+  </section>
   </body>
 </html>
